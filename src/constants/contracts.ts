@@ -3,7 +3,8 @@ import { getContract } from "thirdweb"
 import { baseSepolia } from "thirdweb/chains"
 
 export const predictionMarketContractAddress = "0x8a6b7b75a"    // Estos se sacan de thirdweb platform
-export const tokenContractAddress = "0xba76b6a"
+export const tokenContractAddress = "0xba76b6a";
+// export const baseChain = baseSepolia;
 
 export const predictionMarketContract = getContract({
   client: client,
